@@ -6,9 +6,7 @@ import streamlit as st
 import matplotlib.pyplot as plt
 
 # ===== EDIT THESE =====
-STUDENT_NAME = "SAMIM"
-ROLL_NO = "50"
-COURSE = "Machine Learning Mini Project"
+STUDENT_NAME = "SK SAMIM RIYAJ"
 # ======================
 
 st.set_page_config(page_title="CardioXAI | Heart Risk", page_icon="❤️", layout="wide")
@@ -141,7 +139,7 @@ html(f"""
 <span class="chip">918 patients</span>
 <span class="chip">11 clinical features</span>
 </div>
-<div class="author">{COURSE} &nbsp;|&nbsp; {STUDENT_NAME} &nbsp;|&nbsp; Roll: {ROLL_NO}</div>
+<div class="author">Developed by <b>{STUDENT_NAME}</b></div>
 </div>
 """)
 
@@ -323,7 +321,6 @@ with tab2:
         c2.image("confusion_matrices.png")
 
 # ===== Tab 3: About =====
-# ===== Tab 3: About =====
 with tab3:
     st.subheader("About this project")
     st.write(
@@ -404,3 +401,7 @@ Target: `HeartDisease` (1 = disease, 0 = normal).
         "Dataset citation: fedesoriano. (September 2021). Heart Failure Prediction Dataset. "
         "Retrieved from https://www.kaggle.com/fedesoriano/heart-failure-prediction"
     )
+
+html(f"""
+<div class="footer">CardioXAI &nbsp;|&nbsp; Developed by {STUDENT_NAME}</div>
+""")

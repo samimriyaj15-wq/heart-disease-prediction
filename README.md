@@ -1,15 +1,21 @@
 # CardioXAI: Heart Disease Risk Prediction Using Explainable AI
 
-## Student Information
-
-**Name:** SK SAMIM RIYAJ
-**Department:** Computer Science and Engineering (AI & ML)  
-**Domain:** Machine Learning  
-**College:** Ghani Khan Choudhury Institute of Engineering and Technology (GKCIET)
-
 CardioXAI predicts a patient's risk of heart disease from 11 clinical features and explains every prediction with SHAP, so the result is not a black box. The project includes a full ML pipeline (cleaning, EDA, three models, evaluation, explainability) and a Streamlit web app as a working prototype.
 
 > Educational project only. Not a medical diagnosis tool.
+
+---
+
+## Student Information
+
+**Name:** SK SAMIM RIYAJ  
+**Roll No:** 50  
+**Department:** CSE (AI & ML)  
+**Institute:** Ghani Khan Choudhury Institute of Engineering and Technology (GKCIET), Malda  
+**Subject:** Introduction to Machine Learning  
+**Subject Code:** PCCAIML 502  
+**Domain:** Machine Learning  
+**Guided by:** Dr. Showmik Bhowmik
 
 ---
 
